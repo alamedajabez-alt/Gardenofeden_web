@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garden of Eden | Lawn and garden care in Picton</title>
+<meta name="description" content="Lawn mowing, pruning, hedge trimming, weeding, spraying and weedwacking in Picton. Book a visit online.">
+<meta name="theme-color" content="#1f3a26">
+<meta property="og:title" content="Garden of Eden | Lawn and garden care in Picton">
+<meta property="og:description" content="Book lawn mowing, pruning, hedge trimming, weeding, spraying and weedwacking online.">
+<meta property="og:image" content="images/hero.jpg">
+<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="header">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Garden of Eden, home">
+      <img src="images/logo.png" alt="" width="40" height="40">
+      <span>Garden of Eden</span>
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#work">Our work</a>
+      <a href="#owner">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-sm" href="#book">Book a visit</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap hero-in">
+      <h1>Lawn and garden care in <em>Picton</em></h1>
+      <p>Mowing, pruning, hedges and weeding, all done by hand. Pick a day and we will be there.</p>
+      <div class="actions">
+        <a class="btn btn-lime" href="#book">Book a visit</a>
+        <a class="btn btn-ghost" href="tel:+640000000000">Call us</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="facts">
+    <ul class="wrap">
+      <li>Open Monday to Saturday</li>
+      <li>Every job done by hand</li>
+      <li>Confirmed by phone or message</li>
+    </ul>
+  </div>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="head">
+        <h2>Services</h2>
+        <p class="lead">Choose one service or combine a few in the same visit.</p>
+      </div>
+      <div class="services">
+        <article class="service">
+          <div class="photo" style="--img:url('images/lawn.jpg')"></div>
+          <h3>Lawn mowing</h3>
+          <p>Neat, even cuts for short, small lawns.</p>
+          <button class="btn btn-line" type="button" data-service="Lawn mowing">Book this</button>
+        </article>
+        <article class="service">
+          <div class="photo" style="--img:url('images/pruning.jpg')"></div>
+          <h3>Pruning</h3>
+          <p>Shaping shrubs and trees so they stay healthy and flower well.</p>
+          <button class="btn btn-line" type="button" data-service="Pruning">Book this</button>
+        </article>
+        <article class="service">
+          <div class="photo" style="--img:url('images/hedge.jpeg')"></div>
+          <h3>Hedge trimming</h3>
+          <p>Straight lines and clean tops, with the clippings taken away.</p>
+          <button class="btn btn-line" type="button" data-service="Hedge trimming">Book this</button>
+        </article>
+        <article class="service">
+          <div class="photo" style="--img:url('images/weeding.jpeg')"></div>
+          <h3>Weeding</h3>
+          <p>Weeds pulled by hand from beds, paths and borders.</p>
+          <button class="btn btn-line" type="button" data-service="Weeding">Book this</button>
+        </article>
+        <article class="service">
+          <div class="photo" style="--img:url('images/spraying.jpeg')"></div>
+          <h3>Spraying</h3>
+          <p>Targeted spraying for weeds and garden pests.</p>
+          <button class="btn btn-line" type="button" data-service="Spraying">Book this</button>
+        </article>
+        <article class="service">
+          <div class="photo" style="--img:url('images/weedwacking.jpeg')"></div>
+          <h3>Weedwacking</h3>
+          <p>Edges, fence lines and overgrown corners cut back.</p>
+          <button class="btn btn-line" type="button" data-service="Weedwacking">Book this</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tint" id="finder">
+    <div class="wrap finder">
+      <div>
+        <h2>Not sure what you need?</h2>
+        <p class="lead">Tap whatever is bugging your garden and we will suggest the right services.</p>
+      </div>
+      <div class="finder-box">
+        <div class="chips" id="problemChips"></div>
+        <p class="pick" id="pick" aria-live="polite">Nothing picked yet.</p>
+        <button class="btn" type="button" id="usePick" disabled>Book these services</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="how">
+    <div class="wrap">
+      <div class="head">
+        <h2>How it works</h2>
+      </div>
+      <ol class="steps">
+        <li><strong>Choose your services</strong><span>Pick what you need and a day that suits you.</span></li>
+        <li><strong>We confirm</strong><span>You get a call or message to confirm the time.</span></li>
+        <li><strong>We do the work</strong><span>We arrive, finish the job and tidy up.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section book" id="book">
+    <div class="wrap book-grid">
+      <div class="book-side">
+        <h2>Book a visit</h2>
+        <p class="lead">Tell us what you need and when. We will confirm by phone or message.</p>
+        <p class="note">We work Monday to Saturday. Pick the time that suits you best and we will confirm it.</p>
+        <aside class="summary" aria-live="polite">
+          <h3>Your request</h3>
+          <dl id="summary"></dl>
+        </aside>
+      </div>
+
+      <form id="booking" novalidate>
+        <fieldset>
+          <legend><span class="n">1</span>Services</legend>
+          <div class="chips" id="serviceChips"></div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="n">2</span>Date and time</legend>
+          <label class="field">Date<input type="date" id="date" required></label>
+          <div class="chips slots" id="slots" aria-live="polite"><span class="hint">Choose a date to see times.</span></div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="n">3</span>Your details</legend>
+          <input type="checkbox" id="botcheck" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+          <label class="field">Name<input id="name" autocomplete="name" required></label>
+          <label class="field">Phone<input id="phone" type="tel" autocomplete="tel" required></label>
+          <label class="field">Address<input id="address" autocomplete="street-address" required></label>
+          <label class="field">Notes (optional)<textarea id="notes" rows="3" placeholder="Gate code, size of the lawn, anything we should know"></textarea></label>
+        </fieldset>
+
+        <p class="error" id="error" role="alert"></p>
+        <button class="btn btn-block" type="submit">Request booking</button>
+      </form>
+
+      <div id="done" class="done" hidden tabindex="-1"></div>
+    </div>
+  </section>
+
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="head">
+        <h2>Our work</h2>
+        <p class="lead">Before and after, from jobs around town.</p>
+      </div>
+      <div class="gallery">
+        <figure><div class="photo" style="--img:url('images/before-1.jpg')" role="img" aria-label="Garden before the visit"></div><span class="tag">Before</span></figure>
+        <figure><div class="photo" style="--img:url('images/after-1.jpg')" role="img" aria-label="The same garden after the visit"></div><span class="tag after">After</span></figure>
+        <figure><div class="photo" style="--img:url('images/before-2.jpg')" role="img" aria-label="Garden before the visit"></div><span class="tag">Before</span></figure>
+        <figure><div class="photo" style="--img:url('images/after-2.jpg')" role="img" aria-label="The same garden after the visit"></div><span class="tag after">After</span></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tint" id="owner">
+    <div class="wrap owner">
+      <img class="owner-photo" src="images/owner.jpg" alt="Briarna Foley, owner of Garden of Eden" width="800" height="1146" loading="lazy">
+      <div>
+        <h2>Meet Briarna</h2>
+        <p class="role">Owner, Garden of Eden</p>
+        <p>Kia ora Marlborough. I am a new gardener in this beautiful part of the world, and I have loved gardening since I was young. I cannot wait to start this journey with you.</p>
+        <p>Weeding and pruning are my main strengths, and I do not mind the occasional mow. I have worked in the industry for about two years, including alongside the council and Downer, and I plan to keep building those skills.</p>
+        <p>I look forward to meeting you and your lovely garden.</p>
+        <div class="actions"><a class="btn" href="#book">Book a visit</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reviews">
+    <div class="wrap">
+      <div class="head">
+        <h2>What customers say</h2>
+        <p class="lead">Kind words from people we have worked for.</p>
+      </div>
+      <!-- Replace each placeholder by dropping a screenshot of the review into images/review-1.jpg, review-2.jpg, review-3.jpg -->
+      <div class="snippets">
+        <figure class="snippet"><span>Review screenshot goes here</span><img src="images/review-1.jpg" alt="Customer review" loading="lazy" onerror="this.remove()"></figure>
+        <figure class="snippet"><span>Review screenshot goes here</span><img src="images/review-2.jpg" alt="Customer review" loading="lazy" onerror="this.remove()"></figure>
+        <figure class="snippet"><span>Review screenshot goes here</span><img src="images/review-3.jpg" alt="Customer review" loading="lazy" onerror="this.remove()"></figure>
+      </div>
+      <div class="google">
+        <p>Happy with the work? A Google review helps other people in Picton find us.</p>
+        <!-- Replace YOUR_PLACE_ID with the client's Google Place ID -->
+        <a class="btn" href="https://search.google.com/local/writereview?placeid=YOUR_PLACE_ID" target="_blank" rel="noopener">Write a Google review</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contact">
+  <!-- Placeholder contact details: replace with the client's real ones -->
+  <div class="wrap foot">
+    <div><strong>Garden of Eden</strong><p>Picton, New Zealand</p></div>
+    <div><p><a href="tel:+640000000000">+64 00 000 0000</a></p><p><a href="mailto:hello@example.com">hello@example.com</a></p></div>
+    <div><p>Monday to Saturday</p><p>&copy; <span id="year"></span> Garden of Eden</p></div>
+    <!-- Placeholder social links: replace each # with the client's page URL, and delete any she does not use -->
+    <div class="social">
+      <p>Follow us</p>
+      <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=61579361399878" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.instagram.com/garden_of_eden238?psln=NndlbGRxcDVoMTl6" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<a class="btn sticky-cta" id="cta" href="#book">Book a visit</a>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
